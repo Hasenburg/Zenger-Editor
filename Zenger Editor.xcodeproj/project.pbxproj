@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1AC7D1EE29B1504900462C46 /* RouteViewButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC7D1ED29B1504900462C46 /* RouteViewButton.swift */; };
+		1AC7D1F129B150D500462C46 /* ChangeStaendeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC7D1F029B150D500462C46 /* ChangeStaendeView.swift */; };
+		1AD427F12996C882003B0903 /* RouteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD427F02996C882003B0903 /* RouteView.swift */; };
+		1AD427F32996CBE7003B0903 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1AD427F22996CBE7003B0903 /* GoogleService-Info.plist */; };
+		1AD427F62996CC5E003B0903 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 1AD427F52996CC5E003B0903 /* FirebaseAuth */; };
+		1AD427F82996CC5E003B0903 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 1AD427F72996CC5E003B0903 /* FirebaseDatabase */; };
+		1AD427FA2996CC5E003B0903 /* FirebaseDatabaseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 1AD427F92996CC5E003B0903 /* FirebaseDatabaseSwift */; };
+		1AD427FC2996CC5F003B0903 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 1AD427FB2996CC5F003B0903 /* FirebaseFirestore */; };
+		1AD427FE2996CC5F003B0903 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 1AD427FD2996CC5F003B0903 /* FirebaseFirestoreSwift */; };
+		1AD428002996CE6F003B0903 /* Structs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD427FF2996CE6F003B0903 /* Structs.swift */; };
+		1AD428032996CFA3003B0903 /* Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD428022996CFA3003B0903 /* Style.swift */; };
+		1AD428062996D3A0003B0903 /* FBLocations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD428052996D3A0003B0903 /* FBLocations.swift */; };
+		1AD428082996D4AB003B0903 /* Setup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD428072996D4AB003B0903 /* Setup.swift */; };
+		1AD4280A2997B296003B0903 /* AlignButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD428092997B296003B0903 /* AlignButton.swift */; };
+		1AE994A229BC7B0700F7B902 /* OverlayStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE994A129BC7B0700F7B902 /* OverlayStyles.swift */; };
+		1AE994A429BC7B7600F7B902 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE994A329BC7B7600F7B902 /* DataManager.swift */; };
+		F256E28629DDFD4E00670467 /* FBRoutes.swift in Sources */ = {isa = PBXBuildFile; fileRef = F256E28529DDFD4E00670467 /* FBRoutes.swift */; };
+		F2C0576A29957E780084FA36 /* Zenger_EditorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C0576929957E780084FA36 /* Zenger_EditorApp.swift */; };
+		F2C0576C29957E780084FA36 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C0576B29957E780084FA36 /* ContentView.swift */; };
+		F2C0576E29957E7A0084FA36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2C0576D29957E7A0084FA36 /* Assets.xcassets */; };
+		F2C0577129957E7A0084FA36 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2C0577029957E7A0084FA36 /* Preview Assets.xcassets */; };
+		F2C0577C299580080084FA36 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C05779299580080084FA36 /* MapView.swift */; };
+		F2C0577D299580080084FA36 /* CoordinatorMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C0577A299580080084FA36 /* CoordinatorMapView.swift */; };
+		F2C0577F299580AE0084FA36 /* GlobalFunc.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C0577E299580AE0084FA36 /* GlobalFunc.swift */; };
+		F2C05781299583710084FA36 /* MapFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C05780299583710084FA36 /* MapFunctions.swift */; };
+		F2F21CA229DB601600FD4F38 /* YearPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F21CA129DB601600FD4F38 /* YearPicker.swift */; };
+		F2F45D4129A2B9E900C2B0EE /* SingleRouteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F45D4029A2B9E900C2B0EE /* SingleRouteView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1A83B7E129ABBCAC00602AF3 /* Zenger-Editor-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Zenger-Editor-Info.plist"; sourceTree = SOURCE_ROOT; };
+		1AC7D1ED29B1504900462C46 /* RouteViewButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteViewButton.swift; sourceTree = "<group>"; };
+		1AC7D1F029B150D500462C46 /* ChangeStaendeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeStaendeView.swift; sourceTree = "<group>"; };
+		1AD427F02996C882003B0903 /* RouteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteView.swift; sourceTree = "<group>"; };
+		1AD427F22996CBE7003B0903 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		1AD427FF2996CE6F003B0903 /* Structs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Structs.swift; sourceTree = "<group>"; };
+		1AD428022996CFA3003B0903 /* Style.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Style.swift; sourceTree = "<group>"; };
+		1AD428052996D3A0003B0903 /* FBLocations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FBLocations.swift; sourceTree = "<group>"; };
+		1AD428072996D4AB003B0903 /* Setup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Setup.swift; sourceTree = "<group>"; };
+		1AD428092997B296003B0903 /* AlignButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlignButton.swift; sourceTree = "<group>"; };
+		1AE994A129BC7B0700F7B902 /* OverlayStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlayStyles.swift; sourceTree = "<group>"; };
+		1AE994A329BC7B7600F7B902 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		F256E28529DDFD4E00670467 /* FBRoutes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FBRoutes.swift; sourceTree = "<group>"; };
+		F2C0576629957E780084FA36 /* Zenger Editor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Zenger Editor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2C0576929957E780084FA36 /* Zenger_EditorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Zenger_EditorApp.swift; sourceTree = "<group>"; };
+		F2C0576B29957E780084FA36 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F2C0576D29957E7A0084FA36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F2C0577029957E7A0084FA36 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F2C05779299580080084FA36 /* MapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		F2C0577A299580080084FA36 /* CoordinatorMapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoordinatorMapView.swift; sourceTree = "<group>"; };
+		F2C0577E299580AE0084FA36 /* GlobalFunc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalFunc.swift; sourceTree = "<group>"; };
+		F2C05780299583710084FA36 /* MapFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapFunctions.swift; sourceTree = "<group>"; };
+		F2F21CA129DB601600FD4F38 /* YearPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YearPicker.swift; sourceTree = "<group>"; };
+		F2F45D4029A2B9E900C2B0EE /* SingleRouteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleRouteView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F2C0576329957E780084FA36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AD427FE2996CC5F003B0903 /* FirebaseFirestoreSwift in Frameworks */,
+				1AD427FA2996CC5E003B0903 /* FirebaseDatabaseSwift in Frameworks */,
+				1AD427FC2996CC5F003B0903 /* FirebaseFirestore in Frameworks */,
+				1AD427F82996CC5E003B0903 /* FirebaseDatabase in Frameworks */,
+				1AD427F62996CC5E003B0903 /* FirebaseAuth in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1AC7D1EC29B14E5700462C46 /* RoutesViews */ = {
+			isa = PBXGroup;
+			children = (
+				1AD427F02996C882003B0903 /* RouteView.swift */,
+				1AC7D1ED29B1504900462C46 /* RouteViewButton.swift */,
+				F2F45D4029A2B9E900C2B0EE /* SingleRouteView.swift */,
+			);
+			path = RoutesViews;
+			sourceTree = "<group>";
+		};
+		1AC7D1EF29B150C100462C46 /* Stande */ = {
+			isa = PBXGroup;
+			children = (
+				1AC7D1F029B150D500462C46 /* ChangeStaendeView.swift */,
+			);
+			path = Stande;
+			sourceTree = "<group>";
+		};
+		1AD428012996CF14003B0903 /* Utilitis */ = {
+			isa = PBXGroup;
+			children = (
+				1AD428022996CFA3003B0903 /* Style.swift */,
+				1AD428092997B296003B0903 /* AlignButton.swift */,
+			);
+			path = Utilitis;
+			sourceTree = "<group>";
+		};
+		1AE9949F29BC7A8E00F7B902 /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				1AE994A329BC7B7600F7B902 /* DataManager.swift */,
+				F256E28429DDFD2B00670467 /* Firebase */,
+				F2C0577E299580AE0084FA36 /* GlobalFunc.swift */,
+				1AD427FF2996CE6F003B0903 /* Structs.swift */,
+				1AD428072996D4AB003B0903 /* Setup.swift */,
+			);
+			path = DataManager;
+			sourceTree = "<group>";
+		};
+		1AE994A029BC7AE400F7B902 /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				1AE994A129BC7B0700F7B902 /* OverlayStyles.swift */,
+			);
+			path = Styles;
+			sourceTree = "<group>";
+		};
+		F256E28429DDFD2B00670467 /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				1AD428052996D3A0003B0903 /* FBLocations.swift */,
+				F256E28529DDFD4E00670467 /* FBRoutes.swift */,
+			);
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		F2C0575D29957E780084FA36 = {
+			isa = PBXGroup;
+			children = (
+				F2C0576829957E780084FA36 /* Zenger Editor */,
+				F2C0576729957E780084FA36 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F2C0576729957E780084FA36 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F2C0576629957E780084FA36 /* Zenger Editor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F2C0576829957E780084FA36 /* Zenger Editor */ = {
+			isa = PBXGroup;
+			children = (
+				1A83B7E129ABBCAC00602AF3 /* Zenger-Editor-Info.plist */,
+				1AE9949F29BC7A8E00F7B902 /* DataManager */,
+				F2C0576929957E780084FA36 /* Zenger_EditorApp.swift */,
+				F2C0576B29957E780084FA36 /* ContentView.swift */,
+				F2F21CA129DB601600FD4F38 /* YearPicker.swift */,
+				1AC7D1EF29B150C100462C46 /* Stande */,
+				1AC7D1EC29B14E5700462C46 /* RoutesViews */,
+				F2C05777299580080084FA36 /* MapView */,
+				F2C0576D29957E7A0084FA36 /* Assets.xcassets */,
+				1AD427F22996CBE7003B0903 /* GoogleService-Info.plist */,
+				F2C0576F29957E7A0084FA36 /* Preview Content */,
+			);
+			path = "Zenger Editor";
+			sourceTree = "<group>";
+		};
+		F2C0576F29957E7A0084FA36 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F2C0577029957E7A0084FA36 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F2C05777299580080084FA36 /* MapView */ = {
+			isa = PBXGroup;
+			children = (
+				F2C05779299580080084FA36 /* MapView.swift */,
+				F2C0577A299580080084FA36 /* CoordinatorMapView.swift */,
+				F2C05780299583710084FA36 /* MapFunctions.swift */,
+				1AE994A029BC7AE400F7B902 /* Styles */,
+				1AD428012996CF14003B0903 /* Utilitis */,
+			);
+			path = MapView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F2C0576529957E780084FA36 /* Zenger Editor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2C0577429957E7A0084FA36 /* Build configuration list for PBXNativeTarget "Zenger Editor" */;
+			buildPhases = (
+				F2C0576229957E780084FA36 /* Sources */,
+				F2C0576329957E780084FA36 /* Frameworks */,
+				F2C0576429957E780084FA36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Zenger Editor";
+			packageProductDependencies = (
+				1AD427F52996CC5E003B0903 /* FirebaseAuth */,
+				1AD427F72996CC5E003B0903 /* FirebaseDatabase */,
+				1AD427F92996CC5E003B0903 /* FirebaseDatabaseSwift */,
+				1AD427FB2996CC5F003B0903 /* FirebaseFirestore */,
+				1AD427FD2996CC5F003B0903 /* FirebaseFirestoreSwift */,
+			);
+			productName = "Zenger Editor";
+			productReference = F2C0576629957E780084FA36 /* Zenger Editor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F2C0575E29957E780084FA36 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					F2C0576529957E780084FA36 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = F2C0576129957E780084FA36 /* Build configuration list for PBXProject "Zenger Editor" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F2C0575D29957E780084FA36;
+			packageReferences = (
+				1AD427F42996CC5E003B0903 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = F2C0576729957E780084FA36 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F2C0576529957E780084FA36 /* Zenger Editor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F2C0576429957E780084FA36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2C0577129957E7A0084FA36 /* Preview Assets.xcassets in Resources */,
+				F2C0576E29957E7A0084FA36 /* Assets.xcassets in Resources */,
+				1AD427F32996CBE7003B0903 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F2C0576229957E780084FA36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AE994A229BC7B0700F7B902 /* OverlayStyles.swift in Sources */,
+				1AD428002996CE6F003B0903 /* Structs.swift in Sources */,
+				F2C05781299583710084FA36 /* MapFunctions.swift in Sources */,
+				F2C0577C299580080084FA36 /* MapView.swift in Sources */,
+				F2C0576C29957E780084FA36 /* ContentView.swift in Sources */,
+				1AD427F12996C882003B0903 /* RouteView.swift in Sources */,
+				1AE994A429BC7B7600F7B902 /* DataManager.swift in Sources */,
+				F2C0577F299580AE0084FA36 /* GlobalFunc.swift in Sources */,
+				1AC7D1F129B150D500462C46 /* ChangeStaendeView.swift in Sources */,
+				1AD4280A2997B296003B0903 /* AlignButton.swift in Sources */,
+				1AD428082996D4AB003B0903 /* Setup.swift in Sources */,
+				1AD428062996D3A0003B0903 /* FBLocations.swift in Sources */,
+				1AC7D1EE29B1504900462C46 /* RouteViewButton.swift in Sources */,
+				F2F45D4129A2B9E900C2B0EE /* SingleRouteView.swift in Sources */,
+				F256E28629DDFD4E00670467 /* FBRoutes.swift in Sources */,
+				F2C0576A29957E780084FA36 /* Zenger_EditorApp.swift in Sources */,
+				F2C0577D299580080084FA36 /* CoordinatorMapView.swift in Sources */,
+				F2F21CA229DB601600FD4F38 /* YearPicker.swift in Sources */,
+				1AD428032996CFA3003B0903 /* Style.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F2C0577229957E7A0084FA36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F2C0577329957E7A0084FA36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F2C0577529957E7A0084FA36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Zenger Editor/Preview Content\"";
+				DEVELOPMENT_TEAM = 4KBYRG6HMT;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Zenger-Editor-Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Hasenburg.Zenger-Editor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F2C0577629957E7A0084FA36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Zenger Editor/Preview Content\"";
+				DEVELOPMENT_TEAM = 4KBYRG6HMT;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Zenger-Editor-Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Hasenburg.Zenger-Editor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F2C0576129957E780084FA36 /* Build configuration list for PBXProject "Zenger Editor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2C0577229957E7A0084FA36 /* Debug */,
+				F2C0577329957E7A0084FA36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2C0577429957E7A0084FA36 /* Build configuration list for PBXNativeTarget "Zenger Editor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2C0577529957E7A0084FA36 /* Debug */,
+				F2C0577629957E7A0084FA36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1AD427F42996CC5E003B0903 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1AD427F52996CC5E003B0903 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1AD427F42996CC5E003B0903 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		1AD427F72996CC5E003B0903 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1AD427F42996CC5E003B0903 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		1AD427F92996CC5E003B0903 /* FirebaseDatabaseSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1AD427F42996CC5E003B0903 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabaseSwift;
+		};
+		1AD427FB2996CC5F003B0903 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1AD427F42996CC5E003B0903 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		1AD427FD2996CC5F003B0903 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1AD427F42996CC5E003B0903 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = F2C0575E29957E780084FA36 /* Project object */;
+}

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>253959765706-0vi78cqq5kfce5jgab8ufegskvbvo4lu.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.253959765706-0vi78cqq5kfce5jgab8ufegskvbvo4lu</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCSuSk0Ct-94dSGzOAu0gekCtJ9ol7Nv2w</string>
+	<key>GCM_SENDER_ID</key>
+	<string>253959765706</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.Hasenburg.Zenger-Editor</string>
+	<key>PROJECT_ID</key>
+	<string>zengermoos</string>
+	<key>STORAGE_BUCKET</key>
+	<string>zengermoos.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:253959765706:ios:813a3aa2b5c03c52d87e33</string>
+	<key>DATABASE_URL</key>
+	<string>https://zengermoos.firebaseio.com</string>
+</dict>
+</plist>
