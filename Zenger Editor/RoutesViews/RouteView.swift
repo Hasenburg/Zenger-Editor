@@ -18,7 +18,7 @@ struct RouteView: View {
 	
 	var view_height: CGFloat = 70
 	
-	
+	var hi = 1
 	var body: some View {
 		VStack {
 			
