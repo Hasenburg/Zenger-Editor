@@ -84,6 +84,7 @@ extension MapView {
     
     func showSingleRoute(map: MKMapView, route: Route, idx: Int) {
         
+        
         //Get locations
         var coordinates: [CLLocationCoordinate2D] = []
         for x in route.route_numbers {
@@ -99,6 +100,10 @@ extension MapView {
         map.addOverlay(overlay)
         
         if route.route_numbers.count != 0 {
+            print("idx: \(idx),route_count: \(route.route_numbers.count)")
+            
+            
+            
             //Add Circle for last Route
             let last = route.route_numbers.last
             let circle = CLLocationCoordinate2D(latitude: dm.alle_staende.locations[last!].latitude, longitude: dm.alle_staende.locations[last!].longitude)
@@ -107,6 +112,8 @@ extension MapView {
             c_overlay.title = "\(idx)"
             c_overlay.color = color_scheme_route[idx].uicolor
             map.addOverlay(c_overlay)
+            
+            
         }
     }
     

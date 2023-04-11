@@ -29,6 +29,7 @@ struct SingleRouteView: View {
 		}
 	}
     
+	
     var body: some View {
         ZStack {
 			kmView(nr: route_nr)
