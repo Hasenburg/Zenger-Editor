@@ -28,6 +28,7 @@ struct Routes: Identifiable, Codable {
 
 struct Route: Codable {
 	var route_numbers: [Int]
+    var used: Bool
 	
 }
 

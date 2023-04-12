@@ -18,7 +18,6 @@ struct RouteView: View {
 	
 	var view_height: CGFloat = 70
 	
-	var hi = 1
 	var body: some View {
 		VStack {
 			
@@ -35,7 +34,7 @@ struct RouteView: View {
 								}
                                 
                                 NavigationButton(systemImage: "plus", color_foreground: .white, color_background: .indigo) {
-                                    dm.routes_of_actual_year.routes.append(Route(route_numbers: []))
+                                    dm.routes_of_actual_year.routes.append(Route(route_numbers: [], used: false))
                                     dm.update_all_routes()
                                     
                                 }

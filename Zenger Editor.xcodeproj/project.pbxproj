@@ -162,6 +162,7 @@
 				1AC7D1EF29B150C100462C46 /* Stande */,
 				1AC7D1EC29B14E5700462C46 /* RoutesViews */,
 				F2C05777299580080084FA36 /* MapView */,
+				1AD428012996CF14003B0903 /* Utilitis */,
 				F2C0576D29957E7A0084FA36 /* Assets.xcassets */,
 				1AD427F22996CBE7003B0903 /* GoogleService-Info.plist */,
 				F2C0576F29957E7A0084FA36 /* Preview Content */,
@@ -184,7 +185,6 @@
 				F2C0577A299580080084FA36 /* CoordinatorMapView.swift */,
 				F2C05780299583710084FA36 /* MapFunctions.swift */,
 				1AE994A029BC7AE400F7B902 /* Styles */,
-				1AD428012996CF14003B0903 /* Utilitis */,
 			);
 			path = MapView;
 			sourceTree = "<group>";

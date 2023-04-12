@@ -16,14 +16,7 @@ import MapKit
 extension DataManager {
     
     
-    func gett_locations() async {
-        let db = Firestore.firestore()
-        do {
-            self.alle_staende = try await db.collection("Stand_Locations").document(app_year).getDocument(as: Staende.self)
-        } catch {
-            print("Error (get_locations): \(error.localizedDescription)")
-        }
-    }
+	
     
     func get_locations() {
         
@@ -42,38 +35,7 @@ extension DataManager {
         }
         
     }
-    /*
-     func get_locations() {
-     let group = DispatchGroup()
-     
-     let db = Firestore.firestore()
-     db.collection("Stand_Locations").document(app_year).getDocument { doc, error in
-     if let err = error {
-     print("ERROR: GETLocations")
-     print(err.localizedDescription)
-     return
-     }
-     
-     DispatchQueue.main.async {
-     group.enter()
-     if let doc = doc, doc.exists {
-     do {
-     self.alle_staende = try doc.data(as: Staende.self)
-     } catch let erry {
-     print("ERROR:GETLocations Doc \(erry)")
-     }
-     group.leave()
-     
-     }
-     }
-     }
-     
-     group.notify(queue: .main) {
-     self.alle_staende_loaded = true
-     }
-     }
-     */
-    
+	
     func save_location_changes() {
         let db = Firestore.firestore()
         
