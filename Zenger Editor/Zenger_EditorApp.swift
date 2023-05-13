@@ -11,7 +11,7 @@ import FirebaseAppCheck
 
 @main
 struct Zenger_EditorApp: App {
-	
+    
 	class MyAppCheckProviderFactory: NSObject, AppCheckProviderFactory {
 		func createProvider(with app: FirebaseApp) -> AppCheckProvider? {
 			return AppAttestProvider(app: app)

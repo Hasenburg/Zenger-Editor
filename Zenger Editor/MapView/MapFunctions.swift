@@ -100,9 +100,6 @@ extension MapView {
         map.addOverlay(overlay)
         
         if route.route_numbers.count != 0 {
-            print("idx: \(idx),route_count: \(route.route_numbers.count)")
-            
-            
             
             //Add Circle for last Route
             let last = route.route_numbers.last

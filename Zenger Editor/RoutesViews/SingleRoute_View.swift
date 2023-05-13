@@ -59,7 +59,7 @@ struct SingleRoute_View: View {
                         }
                     }
                 }//.padding(.top, route_view.edit_mode ? 255 : 135)
-                .padding(.top, 5)
+                .padding(.top, 15)
             }
         }//.frame(maxHeight: UIScreen.main.bounds.height*0.3)
     }

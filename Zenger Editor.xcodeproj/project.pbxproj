@@ -12,7 +12,6 @@
 		1AC7D1F129B150D500462C46 /* ChangeStaendeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC7D1F029B150D500462C46 /* ChangeStaendeView.swift */; };
 		1AD427F12996C882003B0903 /* Routes_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD427F02996C882003B0903 /* Routes_View.swift */; };
 		1AD427F32996CBE7003B0903 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1AD427F22996CBE7003B0903 /* GoogleService-Info.plist */; };
-		1AD427F62996CC5E003B0903 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 1AD427F52996CC5E003B0903 /* FirebaseAuth */; };
 		1AD427F82996CC5E003B0903 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 1AD427F72996CC5E003B0903 /* FirebaseDatabase */; };
 		1AD427FA2996CC5E003B0903 /* FirebaseDatabaseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 1AD427F92996CC5E003B0903 /* FirebaseDatabaseSwift */; };
 		1AD427FC2996CC5F003B0903 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 1AD427FB2996CC5F003B0903 /* FirebaseFirestore */; };
@@ -76,7 +75,6 @@
 				1AD427FC2996CC5F003B0903 /* FirebaseFirestore in Frameworks */,
 				1AD427F82996CC5E003B0903 /* FirebaseDatabase in Frameworks */,
 				F29D30D12A06AE0C0045003C /* FirebaseAppCheck in Frameworks */,
-				1AD427F62996CC5E003B0903 /* FirebaseAuth in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,7 +217,6 @@
 			);
 			name = "Zenger Editor";
 			packageProductDependencies = (
-				1AD427F52996CC5E003B0903 /* FirebaseAuth */,
 				1AD427F72996CC5E003B0903 /* FirebaseDatabase */,
 				1AD427F92996CC5E003B0903 /* FirebaseDatabaseSwift */,
 				1AD427FB2996CC5F003B0903 /* FirebaseFirestore */,
@@ -343,6 +340,8 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEBUG_ACTIVITY_MODE = "";
+				"DEBUG_ACTIVITY_MODE[sdk=iphonesimulator*]" = disable;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -403,6 +402,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEBUG_ACTIVITY_MODE = "";
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -517,17 +517,12 @@
 			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 9.0.0;
+				minimumVersion = 10.0.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		1AD427F52996CC5E003B0903 /* FirebaseAuth */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 1AD427F42996CC5E003B0903 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseAuth;
-		};
 		1AD427F72996CC5E003B0903 /* FirebaseDatabase */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 1AD427F42996CC5E003B0903 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
