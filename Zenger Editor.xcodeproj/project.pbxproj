@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1AC7D1EE29B1504900462C46 /* RouteViewButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC7D1ED29B1504900462C46 /* RouteViewButton.swift */; };
+		1A4F8B6D2A0842C30019CCAB /* RouteData_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4F8B6C2A0842C30019CCAB /* RouteData_View.swift */; };
+		1AC7D1EE29B1504900462C46 /* RouteButton_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC7D1ED29B1504900462C46 /* RouteButton_View.swift */; };
 		1AC7D1F129B150D500462C46 /* ChangeStaendeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC7D1F029B150D500462C46 /* ChangeStaendeView.swift */; };
-		1AD427F12996C882003B0903 /* RouteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD427F02996C882003B0903 /* RouteView.swift */; };
+		1AD427F12996C882003B0903 /* Routes_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD427F02996C882003B0903 /* Routes_View.swift */; };
 		1AD427F32996CBE7003B0903 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1AD427F22996CBE7003B0903 /* GoogleService-Info.plist */; };
 		1AD427F62996CC5E003B0903 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 1AD427F52996CC5E003B0903 /* FirebaseAuth */; };
 		1AD427F82996CC5E003B0903 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 1AD427F72996CC5E003B0903 /* FirebaseDatabase */; };
@@ -24,6 +25,7 @@
 		1AE994A229BC7B0700F7B902 /* OverlayStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE994A129BC7B0700F7B902 /* OverlayStyles.swift */; };
 		1AE994A429BC7B7600F7B902 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE994A329BC7B7600F7B902 /* DataManager.swift */; };
 		F256E28629DDFD4E00670467 /* FBRoutes.swift in Sources */ = {isa = PBXBuildFile; fileRef = F256E28529DDFD4E00670467 /* FBRoutes.swift */; };
+		F29D30D12A06AE0C0045003C /* FirebaseAppCheck in Frameworks */ = {isa = PBXBuildFile; productRef = F29D30D02A06AE0C0045003C /* FirebaseAppCheck */; };
 		F2C0576A29957E780084FA36 /* Zenger_EditorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C0576929957E780084FA36 /* Zenger_EditorApp.swift */; };
 		F2C0576C29957E780084FA36 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C0576B29957E780084FA36 /* ContentView.swift */; };
 		F2C0576E29957E7A0084FA36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2C0576D29957E7A0084FA36 /* Assets.xcassets */; };
@@ -33,14 +35,15 @@
 		F2C0577F299580AE0084FA36 /* GlobalFunc.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C0577E299580AE0084FA36 /* GlobalFunc.swift */; };
 		F2C05781299583710084FA36 /* MapFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C05780299583710084FA36 /* MapFunctions.swift */; };
 		F2F21CA229DB601600FD4F38 /* YearPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F21CA129DB601600FD4F38 /* YearPicker.swift */; };
-		F2F45D4129A2B9E900C2B0EE /* SingleRouteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F45D4029A2B9E900C2B0EE /* SingleRouteView.swift */; };
+		F2F45D4129A2B9E900C2B0EE /* SingleRoute_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F45D4029A2B9E900C2B0EE /* SingleRoute_View.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1A4F8B6C2A0842C30019CCAB /* RouteData_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteData_View.swift; sourceTree = "<group>"; };
 		1A83B7E129ABBCAC00602AF3 /* Zenger-Editor-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Zenger-Editor-Info.plist"; sourceTree = SOURCE_ROOT; };
-		1AC7D1ED29B1504900462C46 /* RouteViewButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteViewButton.swift; sourceTree = "<group>"; };
+		1AC7D1ED29B1504900462C46 /* RouteButton_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteButton_View.swift; sourceTree = "<group>"; };
 		1AC7D1F029B150D500462C46 /* ChangeStaendeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeStaendeView.swift; sourceTree = "<group>"; };
-		1AD427F02996C882003B0903 /* RouteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteView.swift; sourceTree = "<group>"; };
+		1AD427F02996C882003B0903 /* Routes_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Routes_View.swift; sourceTree = "<group>"; };
 		1AD427F22996CBE7003B0903 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		1AD427FF2996CE6F003B0903 /* Structs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Structs.swift; sourceTree = "<group>"; };
 		1AD428022996CFA3003B0903 /* Style.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Style.swift; sourceTree = "<group>"; };
@@ -60,7 +63,7 @@
 		F2C0577E299580AE0084FA36 /* GlobalFunc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalFunc.swift; sourceTree = "<group>"; };
 		F2C05780299583710084FA36 /* MapFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapFunctions.swift; sourceTree = "<group>"; };
 		F2F21CA129DB601600FD4F38 /* YearPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YearPicker.swift; sourceTree = "<group>"; };
-		F2F45D4029A2B9E900C2B0EE /* SingleRouteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleRouteView.swift; sourceTree = "<group>"; };
+		F2F45D4029A2B9E900C2B0EE /* SingleRoute_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleRoute_View.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +75,7 @@
 				1AD427FA2996CC5E003B0903 /* FirebaseDatabaseSwift in Frameworks */,
 				1AD427FC2996CC5F003B0903 /* FirebaseFirestore in Frameworks */,
 				1AD427F82996CC5E003B0903 /* FirebaseDatabase in Frameworks */,
+				F29D30D12A06AE0C0045003C /* FirebaseAppCheck in Frameworks */,
 				1AD427F62996CC5E003B0903 /* FirebaseAuth in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -82,9 +86,10 @@
 		1AC7D1EC29B14E5700462C46 /* RoutesViews */ = {
 			isa = PBXGroup;
 			children = (
-				1AD427F02996C882003B0903 /* RouteView.swift */,
-				1AC7D1ED29B1504900462C46 /* RouteViewButton.swift */,
-				F2F45D4029A2B9E900C2B0EE /* SingleRouteView.swift */,
+				1AC7D1ED29B1504900462C46 /* RouteButton_View.swift */,
+				1AD427F02996C882003B0903 /* Routes_View.swift */,
+				F2F45D4029A2B9E900C2B0EE /* SingleRoute_View.swift */,
+				1A4F8B6C2A0842C30019CCAB /* RouteData_View.swift */,
 			);
 			path = RoutesViews;
 			sourceTree = "<group>";
@@ -135,11 +140,19 @@
 			path = Firebase;
 			sourceTree = "<group>";
 		};
+		F29D30CF2A06AE0C0045003C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F2C0575D29957E780084FA36 = {
 			isa = PBXGroup;
 			children = (
 				F2C0576829957E780084FA36 /* Zenger Editor */,
 				F2C0576729957E780084FA36 /* Products */,
+				F29D30CF2A06AE0C0045003C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -155,10 +168,10 @@
 			isa = PBXGroup;
 			children = (
 				1A83B7E129ABBCAC00602AF3 /* Zenger-Editor-Info.plist */,
-				1AE9949F29BC7A8E00F7B902 /* DataManager */,
 				F2C0576929957E780084FA36 /* Zenger_EditorApp.swift */,
 				F2C0576B29957E780084FA36 /* ContentView.swift */,
 				F2F21CA129DB601600FD4F38 /* YearPicker.swift */,
+				1AE9949F29BC7A8E00F7B902 /* DataManager */,
 				1AC7D1EF29B150C100462C46 /* Stande */,
 				1AC7D1EC29B14E5700462C46 /* RoutesViews */,
 				F2C05777299580080084FA36 /* MapView */,
@@ -211,6 +224,7 @@
 				1AD427F92996CC5E003B0903 /* FirebaseDatabaseSwift */,
 				1AD427FB2996CC5F003B0903 /* FirebaseFirestore */,
 				1AD427FD2996CC5F003B0903 /* FirebaseFirestoreSwift */,
+				F29D30D02A06AE0C0045003C /* FirebaseAppCheck */,
 			);
 			productName = "Zenger Editor";
 			productReference = F2C0576629957E780084FA36 /* Zenger Editor.app */;
@@ -275,15 +289,16 @@
 				F2C05781299583710084FA36 /* MapFunctions.swift in Sources */,
 				F2C0577C299580080084FA36 /* MapView.swift in Sources */,
 				F2C0576C29957E780084FA36 /* ContentView.swift in Sources */,
-				1AD427F12996C882003B0903 /* RouteView.swift in Sources */,
+				1AD427F12996C882003B0903 /* Routes_View.swift in Sources */,
+				1A4F8B6D2A0842C30019CCAB /* RouteData_View.swift in Sources */,
 				1AE994A429BC7B7600F7B902 /* DataManager.swift in Sources */,
 				F2C0577F299580AE0084FA36 /* GlobalFunc.swift in Sources */,
 				1AC7D1F129B150D500462C46 /* ChangeStaendeView.swift in Sources */,
 				1AD4280A2997B296003B0903 /* AlignButton.swift in Sources */,
 				1AD428082996D4AB003B0903 /* Setup.swift in Sources */,
 				1AD428062996D3A0003B0903 /* FBLocations.swift in Sources */,
-				1AC7D1EE29B1504900462C46 /* RouteViewButton.swift in Sources */,
-				F2F45D4129A2B9E900C2B0EE /* SingleRouteView.swift in Sources */,
+				1AC7D1EE29B1504900462C46 /* RouteButton_View.swift in Sources */,
+				F2F45D4129A2B9E900C2B0EE /* SingleRoute_View.swift in Sources */,
 				F256E28629DDFD4E00670467 /* FBRoutes.swift in Sources */,
 				F2C0576A29957E780084FA36 /* Zenger_EditorApp.swift in Sources */,
 				F2C0577D299580080084FA36 /* CoordinatorMapView.swift in Sources */,
@@ -532,6 +547,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 1AD427F42996CC5E003B0903 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseFirestoreSwift;
+		};
+		F29D30D02A06AE0C0045003C /* FirebaseAppCheck */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1AD427F42996CC5E003B0903 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAppCheck;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

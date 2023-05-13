@@ -9,14 +9,13 @@ import SwiftUI
 import MapKit
 import FirebaseFirestore
 
+
 class DataManager: ObservableObject {
 	
     
     @Published var app_year: String = "1999"
 	
 	var years = ["2019", "2020", "2021", "2022", "2023", "2024", "2025", "2026", "2027", "2028", "2029", "2030", "2031", "2032", "2033", "2034", "2035", "2036", "2037", "2038", "2039", "2040", "2041", "2042", "2043", "2044", "2045", "2046", "2047", "2048", "2049", "2050"]
-	
-    
     
     @Published var alle_staende = Staende(jahr: "1999", locations: [])
     @Published var save_button_pressed = false
@@ -28,12 +27,12 @@ class DataManager: ObservableObject {
 	@Published var routes_of_actual_year: Routes = Routes(jahr: "1999", routes: []) {
 		didSet {
 			for _ in self.routes_of_actual_year.routes {
-				self.all_routes_views.append(Route_View())
+				self.all_routes_views.append(Route_Settings())
 			}
 		}
 	}
 	//@Published var all_routes: [Routes] = []
-	@Published var all_routes_views = [Route_View(expanded: false, visible: false, edit_mode: false)]
+	@Published var all_routes_views = [Route_Settings(expanded: false, visible: false, edit_mode: false)]
 	
 	
 	@Published var map_set_center = false
@@ -51,6 +50,7 @@ class DataManager: ObservableObject {
 			get_locations()
 		})
         get_actual_route()
+		
 	}
 	
 	

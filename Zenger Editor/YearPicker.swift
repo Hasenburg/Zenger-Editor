@@ -22,7 +22,7 @@ struct YearPicker: View {
 						Button {
 							if indexOfyear > 0 {
 								indexOfyear -= 1
-								dm.app_year = dm.years[indexOfyear]
+                                dm.app_year = dm.years[indexOfyear]
 								dm.get_actual_route()
 								//dm.routes_of_actual_year = dm.all_routes[indexOfyear]
 							}

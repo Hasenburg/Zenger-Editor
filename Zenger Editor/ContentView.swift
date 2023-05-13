@@ -29,8 +29,8 @@ struct ContentView: View {
                     dm.map_set_center.toggle()
                 }
             }
-            RouteViewButton(showRouteView: $showRouteView)
-            RouteView(showRouteView: $showRouteView)
+            Routes_View(showRouteView: $showRouteView)
+            RouteButton_View(showRouteView: $showRouteView)
             
             YearPicker(show: $showRouteView)
         }
@@ -38,6 +38,7 @@ struct ContentView: View {
         .onAppear {
             //let setup = SetupData()
             //setup.addLocations()
+            //setup.add_jagd_jahre()
         }
         .environmentObject(dm)
     }

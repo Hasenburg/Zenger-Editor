@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct RouteViewButton: View {
+struct RouteButton_View: View {
 	@EnvironmentObject var dm: DataManager
 	@Binding var showRouteView: Bool
 	
@@ -22,8 +22,10 @@ struct RouteViewButton: View {
                     NavigationButton(systemImage: "eye.fill", color_foreground: dm.check_route_visibility(), size: 40, font_size: .subheadline) {
 						if dm.check_route_visibility() == .primary {
 							dm.toggle_visibility(on: true)
+                            dm.toggle_expansion(on: true)
 						} else {
 							dm.toggle_visibility(on: false)
+                            dm.toggle_expansion(on: false)
 						}
 					}
 					.onReceive(dm.$routes_of_actual_year) { outp in
@@ -48,7 +50,7 @@ struct RouteViewButton: View {
 
 struct RouteViewButton_Previews: PreviewProvider {
 	static var previews: some View {
-		RouteViewButton(showRouteView: .constant(true))
+		RouteButton_View(showRouteView: .constant(true))
 			.environmentObject(DataManager())
 	}
 }

@@ -10,21 +10,16 @@ import MapKit
 
 struct MapView: UIViewRepresentable {
     typealias UIViewType = MKMapView
-        
     
     ///  Muss ein EnvironementObject bleiben
 	@EnvironmentObject var dm: DataManager
-	
     
     ///  Changes_made muss drinnen bleiben als Binding.
     ///  Wenn als environementObject, dann resetet sich die Location der Staende immer wieder.
     @Binding var changes_made: Bool
     
     
-    
     @State var changed_staende: [MKAnnotation] = []
-    
-    
     
     
     /// Center of Map

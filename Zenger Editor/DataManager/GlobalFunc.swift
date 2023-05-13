@@ -8,7 +8,6 @@
 import SwiftUI
 import MapKit
 
-
 extension DataManager {
     
     
@@ -46,6 +45,12 @@ extension DataManager {
         }
     }
     
+    func toggle_expansion (on: Bool) {
+        for idx in self.all_routes_views.indices {
+            self.all_routes_views[idx].expanded = on
+        }
+    }
+    
     func get_km (route_nr: Int) -> Double {
         var coordinates: [CLLocation] = []
         if self.alle_staende.locations.count > 40  {
@@ -70,9 +75,14 @@ extension DataManager {
             completionHandler(self.years[safe: idx]!)
         }
     }
-    
-    
-    
+	
+}
+
+
+extension Collection where Indices.Iterator.Element == Index {
+    public subscript(safe index: Index) -> Iterator.Element? {
+        return (startIndex <= index && index < endIndex) ? self[index] : nil
+    }
 }
 
 

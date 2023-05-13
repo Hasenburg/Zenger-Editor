@@ -5,12 +5,10 @@
 //  Created by Sebastian Haslberger on 10.02.23.
 //
 
-
 import SwiftUI
 import Firebase
 import FirebaseFirestore
 import FirebaseFirestoreSwift
-
 
 class SetupData: ObservableObject {
     
@@ -18,7 +16,6 @@ class SetupData: ObservableObject {
     
     
     func addLocations() {
-        
         let db = Firestore.firestore()
         for x in all_years.indices {
             
@@ -34,6 +31,36 @@ class SetupData: ObservableObject {
         }
     }
     
+    func add_jagd_jahre() {
+        
+        let db = Firestore.firestore()
+        
+        for x in all_years.indices {
+            let ref = db.collection("Jagdzeiten").document("\(all_years[x])")
+            
+            var dateComponents = DateComponents()
+            dateComponents.year = Int(all_years[safe: x]!)
+            dateComponents.month = 12
+            dateComponents.day = 10
+            dateComponents.timeZone = TimeZone(abbreviation: "CEST")
+            dateComponents.hour = 9
+            dateComponents.minute = 00
+            let userCalendar = Calendar(identifier: .gregorian)
+            let startDate = userCalendar.date(from: dateComponents)
+            
+            dateComponents.hour = 14
+            dateComponents.minute = 00
+            let endeDate = userCalendar.date(from: dateComponents)
+            
+            let time = Jagdjahr(jahr: all_years[x], jagdstart: Timestamp(date: startDate!), jagdende: Timestamp(date: endeDate!))
+            
+            do {
+                let _ = try ref.setData(from:time)
+            } catch {
+                print(error)
+            }
+        }
+    }
     
     var Locations = [
         GeoPoint(latitude: 48.282074, longitude: 11.753423),
@@ -88,6 +115,6 @@ class SetupData: ObservableObject {
         GeoPoint(latitude: 0, longitude: 0),
         GeoPoint(latitude: 0, longitude: 0)
     ]
-
+    
     
 }

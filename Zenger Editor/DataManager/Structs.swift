@@ -10,6 +10,11 @@ import Firebase
 import FirebaseFirestoreSwift
 import MapKit
 
+struct Jagdjahr: Codable {
+    var jahr: String
+    var jagdstart: Timestamp
+    var jagdende: Timestamp
+}
 
 struct Staende: Identifiable, Codable {
 	
@@ -32,7 +37,7 @@ struct Route: Codable {
 	
 }
 
-struct Route_View: Codable {
+struct Route_Settings: Codable {
     var expanded: Bool = false {
         ///Set edit_mode to false, when expanded view disappears
         willSet (newValue) {

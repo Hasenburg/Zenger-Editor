@@ -16,8 +16,6 @@ import MapKit
 extension DataManager {
     
     
-	
-    
     func get_locations() {
         
             let db = Firestore.firestore()

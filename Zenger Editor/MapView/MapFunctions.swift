@@ -12,7 +12,6 @@ import FirebaseFirestore
 extension MapView {
     
     
-    @MainActor
     func updateUIView(_ uiView: MKMapView, context: UIViewRepresentableContext<MapView>) {
         
         addLocations(map: uiView)
@@ -60,6 +59,7 @@ extension MapView {
         }
     }
     
+    @MainActor
     func setCenter(map: MKMapView) {
         if dm.map_set_center {
             map.setRegion(MKCoordinateRegion(center: self.coordinate, span: self.span), animated: true)
