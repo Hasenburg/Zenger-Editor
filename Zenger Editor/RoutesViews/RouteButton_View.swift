@@ -41,6 +41,7 @@ struct RouteButton_View: View {
 						if dm.annotation_is_draggable == true {
 							dm.annotation_is_draggable = false
 						}
+						//dm.setup_add_treiber()
 					}
 				}
 			}

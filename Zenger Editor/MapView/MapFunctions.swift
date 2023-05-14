@@ -120,9 +120,15 @@ extension MapView {
                 if dm.routes_of_actual_year.routes[idx].route_numbers.last != Int(stand_nr) {
                     dm.routes_of_actual_year.routes[idx].route_numbers.append(Int(stand_nr)!)
                     dm.update_all_routes()
+					dm.update_treiber(route_nr: idx, field: "total", value: dm.routes_of_actual_year.routes[idx].route_numbers.count)
+					dm.update_treiber(route_nr: idx, field: "km", value: dm.get_km(route_nr: idx))
+					
                 } else {
                     dm.routes_of_actual_year.routes[idx].route_numbers.removeLast()
                     dm.update_all_routes()
+					dm.update_treiber(route_nr: idx, field: "total", value: dm.routes_of_actual_year.routes[idx].route_numbers.count)
+					dm.update_treiber(route_nr: idx, field: "km", value: dm.get_km(route_nr: idx))
+					//dm.update_total_of_treiber(route_nr: idx, total: dm.routes_of_actual_year.routes[idx].route_numbers.count)
                 }
             }
         }

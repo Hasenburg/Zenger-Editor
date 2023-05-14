@@ -23,6 +23,9 @@
 		1AD4280A2997B296003B0903 /* AlignButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD428092997B296003B0903 /* AlignButton.swift */; };
 		1AE994A229BC7B0700F7B902 /* OverlayStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE994A129BC7B0700F7B902 /* OverlayStyles.swift */; };
 		1AE994A429BC7B7600F7B902 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE994A329BC7B7600F7B902 /* DataManager.swift */; };
+		F247C4BE2A100A4800CB551E /* FBTreiber.swift in Sources */ = {isa = PBXBuildFile; fileRef = F247C4BD2A100A4800CB551E /* FBTreiber.swift */; };
+		F247C4C02A11739300CB551E /* FBJagdjahr.swift in Sources */ = {isa = PBXBuildFile; fileRef = F247C4BF2A11739200CB551E /* FBJagdjahr.swift */; };
+		F247C4C22A1173F900CB551E /* Jagdjahr_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = F247C4C12A1173F900CB551E /* Jagdjahr_View.swift */; };
 		F256E28629DDFD4E00670467 /* FBRoutes.swift in Sources */ = {isa = PBXBuildFile; fileRef = F256E28529DDFD4E00670467 /* FBRoutes.swift */; };
 		F29D30D12A06AE0C0045003C /* FirebaseAppCheck in Frameworks */ = {isa = PBXBuildFile; productRef = F29D30D02A06AE0C0045003C /* FirebaseAppCheck */; };
 		F2C0576A29957E780084FA36 /* Zenger_EditorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C0576929957E780084FA36 /* Zenger_EditorApp.swift */; };
@@ -51,6 +54,9 @@
 		1AD428092997B296003B0903 /* AlignButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlignButton.swift; sourceTree = "<group>"; };
 		1AE994A129BC7B0700F7B902 /* OverlayStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlayStyles.swift; sourceTree = "<group>"; };
 		1AE994A329BC7B7600F7B902 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		F247C4BD2A100A4800CB551E /* FBTreiber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FBTreiber.swift; sourceTree = "<group>"; };
+		F247C4BF2A11739200CB551E /* FBJagdjahr.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FBJagdjahr.swift; sourceTree = "<group>"; };
+		F247C4C12A1173F900CB551E /* Jagdjahr_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jagdjahr_View.swift; sourceTree = "<group>"; };
 		F256E28529DDFD4E00670467 /* FBRoutes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FBRoutes.swift; sourceTree = "<group>"; };
 		F2C0576629957E780084FA36 /* Zenger Editor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Zenger Editor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2C0576929957E780084FA36 /* Zenger_EditorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Zenger_EditorApp.swift; sourceTree = "<group>"; };
@@ -132,8 +138,10 @@
 		F256E28429DDFD2B00670467 /* Firebase */ = {
 			isa = PBXGroup;
 			children = (
+				F247C4BF2A11739200CB551E /* FBJagdjahr.swift */,
 				1AD428052996D3A0003B0903 /* FBLocations.swift */,
 				F256E28529DDFD4E00670467 /* FBRoutes.swift */,
+				F247C4BD2A100A4800CB551E /* FBTreiber.swift */,
 			);
 			path = Firebase;
 			sourceTree = "<group>";
@@ -169,6 +177,7 @@
 				F2C0576929957E780084FA36 /* Zenger_EditorApp.swift */,
 				F2C0576B29957E780084FA36 /* ContentView.swift */,
 				F2F21CA129DB601600FD4F38 /* YearPicker.swift */,
+				F247C4C12A1173F900CB551E /* Jagdjahr_View.swift */,
 				1AE9949F29BC7A8E00F7B902 /* DataManager */,
 				1AC7D1EF29B150C100462C46 /* Stande */,
 				1AC7D1EC29B14E5700462C46 /* RoutesViews */,
@@ -285,6 +294,7 @@
 				1AD428002996CE6F003B0903 /* Structs.swift in Sources */,
 				F2C05781299583710084FA36 /* MapFunctions.swift in Sources */,
 				F2C0577C299580080084FA36 /* MapView.swift in Sources */,
+				F247C4C22A1173F900CB551E /* Jagdjahr_View.swift in Sources */,
 				F2C0576C29957E780084FA36 /* ContentView.swift in Sources */,
 				1AD427F12996C882003B0903 /* Routes_View.swift in Sources */,
 				1A4F8B6D2A0842C30019CCAB /* RouteData_View.swift in Sources */,
@@ -298,8 +308,10 @@
 				F2F45D4129A2B9E900C2B0EE /* SingleRoute_View.swift in Sources */,
 				F256E28629DDFD4E00670467 /* FBRoutes.swift in Sources */,
 				F2C0576A29957E780084FA36 /* Zenger_EditorApp.swift in Sources */,
+				F247C4BE2A100A4800CB551E /* FBTreiber.swift in Sources */,
 				F2C0577D299580080084FA36 /* CoordinatorMapView.swift in Sources */,
 				F2F21CA229DB601600FD4F38 /* YearPicker.swift in Sources */,
+				F247C4C02A11739300CB551E /* FBJagdjahr.swift in Sources */,
 				1AD428032996CFA3003B0903 /* Style.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -3,4 +3,159 @@
    uuid = "887C0CCA-6EAB-47C7-B2A5-B5AFF700E31E"
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "299869F5-BD35-4304-BFDB-25FE156EE829"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Zenger Editor/DataManager/DataManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "DataManager"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "299869F5-BD35-4304-BFDB-25FE156EE829 - eb0c835d867f1824"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "property wrapper backing initializer of Zenger_Editor.DataManager.routes_of_actual_year : Zenger_Editor.Routes"
+                  moduleName = "Zenger Editor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sh/Documents/SoftwareProjects/Zenger%20Editor/Zenger%20Editor/DataManager/DataManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "299869F5-BD35-4304-BFDB-25FE156EE829 - 93b36c35a03f44f9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Zenger_Editor.DataManager.routes_of_actual_year.getter : Zenger_Editor.Routes"
+                  moduleName = "Zenger Editor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sh/Documents/SoftwareProjects/Zenger%20Editor/Zenger%20Editor/DataManager/DataManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "182">
+               </Location>
+               <Location
+                  uuid = "299869F5-BD35-4304-BFDB-25FE156EE829 - b7a0107975e194f5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Zenger_Editor.DataManager.routes_of_actual_year.setter : Zenger_Editor.Routes"
+                  moduleName = "Zenger Editor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sh/Documents/SoftwareProjects/Zenger%20Editor/Zenger%20Editor/DataManager/DataManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "141">
+               </Location>
+               <Location
+                  uuid = "299869F5-BD35-4304-BFDB-25FE156EE829 - e580120b4003e8c4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Zenger_Editor.DataManager.routes_of_actual_year.modify : Zenger_Editor.Routes"
+                  moduleName = "Zenger Editor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sh/Documents/SoftwareProjects/Zenger%20Editor/Zenger%20Editor/DataManager/DataManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "299869F5-BD35-4304-BFDB-25FE156EE829 - 22067c514243e311"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Zenger_Editor.DataManager.routes_of_actual_year.modify : Zenger_Editor.Routes with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "Zenger Editor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sh/Documents/SoftwareProjects/Zenger%20Editor/Zenger%20Editor/DataManager/DataManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "46">
+               </Location>
+               <Location
+                  uuid = "299869F5-BD35-4304-BFDB-25FE156EE829 - 76c802479021269d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Zenger_Editor.DataManager.$routes_of_actual_year.getter : Combine.Published&lt;Zenger_Editor.Routes&gt;.Publisher"
+                  moduleName = "Zenger Editor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sh/Documents/SoftwareProjects/Zenger%20Editor/Zenger%20Editor/DataManager/DataManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "94">
+               </Location>
+               <Location
+                  uuid = "299869F5-BD35-4304-BFDB-25FE156EE829 - 8a8e3ac935186289"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Zenger_Editor.DataManager.$routes_of_actual_year.setter : Combine.Published&lt;Zenger_Editor.Routes&gt;.Publisher"
+                  moduleName = "Zenger Editor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sh/Documents/SoftwareProjects/Zenger%20Editor/Zenger%20Editor/DataManager/DataManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "180">
+               </Location>
+               <Location
+                  uuid = "299869F5-BD35-4304-BFDB-25FE156EE829 - cea31bdf6978095e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Zenger_Editor.DataManager.$routes_of_actual_year.modify : Combine.Published&lt;Zenger_Editor.Routes&gt;.Publisher"
+                  moduleName = "Zenger Editor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sh/Documents/SoftwareProjects/Zenger%20Editor/%3Ccompiler-generated%3E"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "44">
+               </Location>
+               <Location
+                  uuid = "299869F5-BD35-4304-BFDB-25FE156EE829 - 9c02e24cf8d1b595"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Zenger_Editor.DataManager.$routes_of_actual_year.modify : Combine.Published&lt;Zenger_Editor.Routes&gt;.Publisher with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "Zenger Editor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sh/Documents/SoftwareProjects/Zenger%20Editor/Zenger%20Editor/DataManager/DataManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "20">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>

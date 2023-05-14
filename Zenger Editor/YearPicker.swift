@@ -12,6 +12,8 @@ struct YearPicker: View {
 	@Binding var show: Bool
 	@State var expanded = false
 	
+	@Binding var show_Jagdjahr_button: Bool
+	
 	@State var indexOfyear = 0
 	
 	var body: some View {
@@ -34,6 +36,7 @@ struct YearPicker: View {
 					
 					Button {
 						expanded.toggle()
+						show_Jagdjahr_button.toggle()
 					} label: {
 						Text(dm.years[indexOfyear])
 							.foregroundColor(.white)
@@ -70,7 +73,7 @@ struct YearPicker: View {
 
 struct YearPicker_Previews: PreviewProvider {
 	static var previews: some View {
-		YearPicker(show: .constant(false))
+		YearPicker(show: .constant(false), show_Jagdjahr_button: .constant(true))
 			.environmentObject(DataManager())
 	}
 }

@@ -15,22 +15,6 @@ import MapKit
 
 extension DataManager {
 	
-	
-	/*
-	 
-	 func get_actual_route() {
-	 let db = Firestore.firestore()
-	 db.collection("Routes").document(app_year).getDocument { qrysnp, error in
-	 if let qrysnp = qrysnp {
-	 do {
-	 let _ = try self.routes_of_actual_year = qrysnp.data(as: Routes.self)
-	 } catch let err {
-	 print("Error fetch (get_actual_route): \(err.localizedDescription)")
-	 }
-	 }
-	 }
-	 }*/
-	
 	func get_actual_route() {
 		let db = Firestore.firestore()
         
@@ -49,26 +33,6 @@ extension DataManager {
 			
 		}
 	}
-	/*
-	func get_all_routes() async {
-		let db = Firestore.firestore()
-		
-		db.collection("Routes").addSnapshotListener { qrysnp, error in
-			
-			if let qrysnp = qrysnp {
-				self.all_routes = qrysnp.documents.compactMap{ document in
-					do {
-						let x = try document.data(as: Routes.self)
-						return x
-					} catch let err {
-						print("Error fetch (get_all_routes): \(err.localizedDescription)")
-					}
-					return nil
-				}
-			}
-			
-		}
-	}*/
 	
 	func update_all_routes() {
 		let db = Firestore.firestore()
@@ -85,5 +49,7 @@ extension DataManager {
 			
 		}
 	}
+	
+	
 	
 }

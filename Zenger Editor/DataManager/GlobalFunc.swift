@@ -76,6 +76,17 @@ extension DataManager {
         }
     }
 	
+	
+	func check_treiber (route_nr: Int) -> String {
+		var name = ""
+		for idx in self.alle_treiber {
+			if idx.route == route_nr {
+				name = idx.treiber
+			}
+		}
+		return name
+	}
+	
 }
 
 

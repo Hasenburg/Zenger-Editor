@@ -55,3 +55,16 @@ struct Route_Settings: Codable {
 	
 }
 
+
+struct Treiber: Identifiable, Codable {
+	@DocumentID var id: String?
+	var jahr: String
+	var route: Int
+	var treiber: String
+	var total: Int
+	var done_staende: Int
+	var km: Double
+	var done_km: Double
+	
+}
+
